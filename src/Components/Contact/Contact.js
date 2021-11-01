@@ -11,7 +11,7 @@ const Contact = () => {
             <div className=" text-6xl flex">
                 <img className="w-6/12 m-4 mt-1" src={img} alt="" />
                 <div className="m-4 mt-14">
-                    <h2 className="text-3xl font-bold text-red-500 ">It's your home pharmacy. You can cotact us for help or feadback</h2>
+                    <h2 className="text-3xl font-bold text-red-500 ">Customer is our Support . You can cotact us for help or feadback</h2>
 
                     <h2 className="text-xl font-bold mt-4 text-indigo-500">Contact Us</h2>
                     <h2 className="my-3 text-xl">Call: 1-800-2690</h2>

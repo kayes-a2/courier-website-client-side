@@ -11,7 +11,7 @@ import Login from './Components/Login/Login';
 import NotFound from './Components/NotFound/NotFound';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Register from './Components/Register/Register';
-import Service from './Components/Service/Service';
+import Support from './Components/Service/Service';
 import AuthProvider from './Context/AuthProvider';
 
 function App() {
@@ -38,11 +38,11 @@ function App() {
               <Contact></Contact>
             </Route>
 
-            <Route path="/service">
-              <Service></Service>
+            <Route path="/Support">
+              <Support></Support>
             </Route>
 
-            <PrivateRoute path="/buying/:medicineId">
+            <PrivateRoute path="/buying/:serviceId">
               <Buying></Buying>
             </PrivateRoute>
 

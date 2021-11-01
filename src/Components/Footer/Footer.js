@@ -9,13 +9,13 @@ const Footer = () => {
         <div >
             <div className="bg-gray-400 p-20 footer ">
 
-                <h2 className="text-2xl text-center mb-10 font-bold ">Your own pharmacy. Next to your door.</h2>
+                <h2 className="text-2xl text-center mb-10 font-bold ">We are the perfect one for your neccessary !</h2>
                 <div className="  grid grid-cols-4">
 
 
                     <div className="">
                         <h2 className="font-bold text-xl mb-3">Feadback</h2>
-                        <h2 className="">Very fast and good customer service by Medications. The price of medicine is also very good as compare to other online medicine order platform. I am very happy to have Medications as my all time medicine friend. Medications delivery service is very good because they deliver the medicines within 48hrs.
+                        <h2 className="">We’ve been working together since the beginning of RedX’s journey, growing up. RedX's parcel tracking and fast payment facility has made running my business much easier than before.
                         </h2>
                     </div>
 
@@ -26,11 +26,12 @@ const Footer = () => {
                         <h2 className="">Location : Dhaka,Bangladesh</h2>
                     </div>
                     <div className=" ml-32">
-                        <h2 className="font-bold text-xl mb-3">Top Sell's</h2>
-                        <h2>First Aid</h2>
-                        <h2>Paracetamol</h2>
-                        <h2>Saline (or/water)</h2>
-                        <h2>Sanitizer</h2>
+                        <h2 className="font-bold text-xl mb-3">Top Services</h2>
+                        <h2>Parcel Delivery</h2>
+                        <h2>Truck Rental</h2>
+                        <h2>Bulk Shipment</h2>
+                        <h2>Customizable-Solution</h2>
+                        <h2>Logistic Services</h2>
                     </div>
                     <div className="text-xl ml-24 ">
 
@@ -46,7 +47,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className="mt-10 text-center ">Copyright © Medications 2021</p>
+                <p className="mt-10 text-center ">Copyright © RedX Delivery
+                    2021</p>
             </div>
 
         </div>

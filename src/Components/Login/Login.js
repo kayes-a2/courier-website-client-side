@@ -7,7 +7,7 @@ const Login = () => {
     const { signInUsingGoogle } = useAuth();
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from || '/shop';
+    const redirect_uri = location.state?.from || '/home';
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
@@ -19,7 +19,7 @@ const Login = () => {
     return (
         <div className="">
             <div class="w-full max-w-xs mx-auto">
-                <h1 className="text-center mt-4 text-2xl font-bold mt-10 text-red-500">Please Login</h1>
+                <h1 className="text-center  text-2xl font-bold mt-10 text-red-500">Please Login</h1>
 
                 <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                     <div class="mb-4">

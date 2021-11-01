@@ -13,7 +13,7 @@ const Product = (props) => {
         <div>
             <div className="max-w-sm overflow-hidden shadow-lg m-4 mx-auto rounded-lg pt-5 bg-gray-300 ">
                 <div className="cart-image text-center">
-                    <img className="mx-auto h-56 w-72 rounded-lg" src={image} alt="" />
+                    <img className="mx-auto h- w- rounded-lg" src={image} alt="" />
                 </div>
 
                 <div className="px-6 py-4 text-center ">
@@ -24,7 +24,7 @@ const Product = (props) => {
                     <p><span className="font-bold text-xl mb-2"> Description : </span>{description}</p>
 
                     <NavLink to={`/buying/${id}`}>
-                        <button className=" text-xl bg-black text-white rounded-lg p-1 my-4 ">Buy Now</button>
+                        <button className=" text-xl bg-black text-white rounded-lg p-1 my-4 ">Book Now</button>
                     </NavLink>
                 </div>
             </div>

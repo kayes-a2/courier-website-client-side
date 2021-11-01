@@ -17,11 +17,10 @@ const Buying = () => {
     }, []);
 
     //daynamic route 
-    const { medicineId } = useParams();
-    console.log(medicineId)
+    const { serviceId } = useParams();
 
 
-    const service = services.find(serv => serv.id === +medicineId)
+    const service = services.find(serv => serv.id === +serviceId)
     console.log(service)
     return (
         //full buying part of html (jsx) 
@@ -38,7 +37,7 @@ const Buying = () => {
 
                     <h2 className=" font-bold">Price : <span className="font-bold text-xl mb-2"> ${service?.price} </span></h2>
 
-                    <p><span className="font-bold text-xl mb-2"> Description : </span>{service?.descriptions}</p>
+                    <p><span className="font-bold text-xl mb-2"> Description : </span>{service?.description}</p>
                 </div>
             </div>
         </div>
