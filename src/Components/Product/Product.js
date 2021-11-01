@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './Product.css';
 
 //product component arrow function
 const Product = (props) => {
@@ -12,7 +13,7 @@ const Product = (props) => {
     return (
         //full product part of html (jsx) 
         <div>
-            <div className="max-w-sm overflow-hidden shadow-lg m-4 mx-auto rounded-lg pt-5 bg-gray-300 ">
+            <div className="cart max-w-sm overflow-hidden shadow-lg m-4 mx-auto rounded-lg pt-5 bg-gray-300 ">
                 <div className="cart-image text-center">
                     <img className="mx-auto rounded-lg" src={image} alt="" />
                 </div>

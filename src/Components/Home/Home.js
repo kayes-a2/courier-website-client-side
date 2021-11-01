@@ -24,7 +24,7 @@ const Home = () => {
             </div>
             <div id="service">
                 <h2 className="text-5xl font-bold text-center mb-3 text-red-600">Services</h2>
-                <div className="grid lg:grid-cols-3 sm:grid-cols-1 mb-5">
+                <div className="grid lg:grid-cols-3 sm:grid-cols-1 mb-5 ">
 
                     {
                         services.map(service => <Product key={service.id} service={service}></Product>)
@@ -35,7 +35,7 @@ const Home = () => {
             <h2 className="text-5xl font-bold text-center mb-3 text-red-600 "> </h2>
 
             <div className="grid lg:grid-cols-2 sm:grid-cols-1 bg-black mt-10">
-                <img className="oxyzen m-4 mt-6" src="https://redx.com.bd/images/revamp/bangladash-map.svg" alt="" />
+                <img className="map m-4 mt-6" src="https://redx.com.bd/images/revamp/bangladash-map.svg" alt="" />
                 <div>
                     <h2 className="text-4xl font-bold ml-10 m-4 mt-44 text-white">Red X's logistics services cover 64 districts and 493 upazilas across the country.</h2>
                     <p className="ml-10 mt-7 text-xl text-white">We guarantee the fastest service nationwide for any of your logistics needs</p>
