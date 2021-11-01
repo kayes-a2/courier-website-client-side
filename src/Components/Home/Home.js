@@ -1,16 +1,16 @@
 //import component's & external css & react external node pakage
 
 import React from 'react';
-import useMedicine from '../../hooks/Services/useServices';
 import Product from '../Product/Product';
 import image from '../../Images/01-home.jpg';
 import img from '../../Images/img.PNG'
 import './Home.css'
+import useServices from '../../hooks/Services/useServices';
 
 //home component arrow function
 const Home = () => {
     //use coustom hook
-    const { medicines, setMedicines } = useMedicine();
+    const { services, setServices } = useServices();
 
     return (
         //full home part of html (jsx) 
@@ -27,7 +27,7 @@ const Home = () => {
                 <div className="grid lg:grid-cols-3 sm:grid-cols-1 mb-5">
 
                     {
-                        medicines.map(medicine => <Product key={medicine.id} medicine={medicine}></Product>)
+                        services.map(service => <Product key={service.id} service={service}></Product>)
                     }
                 </div>
             </div>

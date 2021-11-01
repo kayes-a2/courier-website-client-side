@@ -1,21 +1,22 @@
 Details:
 
-website name : Medications.
+website name : RedX Delivery.
 
 live link :
 
-firebase link : 
+firebase link : https://tourism-or-delivery-webs-aae32.web.app/
 
-github link :
+github link : https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-kayes-a2
 
 About this site:
 
-* this website about medical related 
+* this website about courier service
 * this website user friendly & easy to acceasable 
-* You can order your needed medicine
+* we have all bangladesh  branch
 * cash on home delivery on time
 * 24/7 open (service online & offline)
-* emergency ambulence service 
-* emergency oxyzen service 
-* you can get medical emergency support 
+* we have many service 
+* we providr 24/7 support 
+* we are trusted & commited to our all Services
+  
 

@@ -11,7 +11,7 @@ const Buying = () => {
 
     //using sideeffect 
     useEffect(() => {
-        fetch('/fakedb.JSON')
+        fetch('/fakedb.json')
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);

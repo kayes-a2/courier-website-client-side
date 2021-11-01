@@ -6,14 +6,15 @@ import { NavLink } from 'react-router-dom';
 //product component arrow function
 const Product = (props) => {
     //useing distuctering
-    const { name, image, price, description, id } = props.medicine
+    const { name, image, price, description, id } = props.service
+
 
     return (
         //full product part of html (jsx) 
         <div>
             <div className="max-w-sm overflow-hidden shadow-lg m-4 mx-auto rounded-lg pt-5 bg-gray-300 ">
                 <div className="cart-image text-center">
-                    <img className="mx-auto h- w- rounded-lg" src={image} alt="" />
+                    <img className="mx-auto rounded-lg" src={image} alt="" />
                 </div>
 
                 <div className="px-6 py-4 text-center ">

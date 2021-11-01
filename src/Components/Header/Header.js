@@ -48,6 +48,7 @@ const Header = () => {
                     <p className="mt-2 ml-2">{user.displayName} </p>
 
                     {user?.email && <button className="mx-4 text-xl bg-black text-white rounded-lg p-1" onClick={logout}>log out</button>}
+
                 </div>
             </div>
         </div >

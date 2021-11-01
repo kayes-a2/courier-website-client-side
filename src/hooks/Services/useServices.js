@@ -3,21 +3,21 @@
 import { useEffect, useState } from "react";
 
 //usemedicine custom hook component arrow function
-const useMedicine = () => {
+const useServices = () => {
 
     //using state 
-    const [medicines, setMedicines] = useState([]);
+    const [services, setServices] = useState([]);
 
     //using sideeffect external hook of state
     useEffect(() => {
 
         //fetch for load data from public folder
-        fetch('./fakedb.JSON')
+        fetch('./fakedb.json')
             .then(res => res.json())
-            .then(data => setMedicines(data))
+            .then(data => setServices(data))
     }, []);
-    return { medicines, setMedicines };
+    return { services, setServices };
 };
 
 //export usedetails custom hook component
-export default useMedicine;
+export default useServices;
